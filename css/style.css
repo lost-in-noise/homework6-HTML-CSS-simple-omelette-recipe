@@ -1,6 +1,5 @@
 body {
   background-color: hsl(29, 53%, 90%);
-  
 }
 
 img {
@@ -26,11 +25,35 @@ img {
   margin-top: 1rem;
 }
 .recipe-title p {
-  font-family: "Outfit Regular400";
+  font-family: "Outfit-Regular400";
   font-size: 0.8rem;
   color: hsl(30, 10%, 34%);
   padding-top: 1rem;
 }
-.recipe-title {
 
+.bold-li {
+  font-weight: bold;
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.preparation-time h3 {
+  font-family: "Outfit-SemiBold600";
+  color: hsl(332, 51%, 32%);
+}
+.preparation-time ul li {
+  font-family: "Outfit-Regular400";
+  margin: 1rem;
+  font-size: 0.8rem;
+  color: hsl(30, 10%, 34%);
+  line-height: .7;
+}
+.preparation-time li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: .6rem;
 }
