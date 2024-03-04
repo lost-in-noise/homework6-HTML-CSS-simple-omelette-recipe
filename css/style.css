@@ -51,9 +51,35 @@ img {
   margin: 1rem;
   font-size: 0.8rem;
   color: hsl(30, 10%, 34%);
-  line-height: .7;
+  line-height: 0.7;
 }
 .preparation-time li::marker {
   color: hsl(332, 51%, 32%);
+  font-size: 0.6rem;
+}
+
+.ingredients h2 {
+  font-family: "Young-Serif";
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul {
+  font-family: "Outfit-Regular400";
+  margin: 1rem;
+  font-size: 0.8rem;
+  color: hsl(30, 10%, 34%);
+  line-height: 2;
+  list-style-type: square;
+  padding: 1rem;
+}
+
+.ingredients ul li::marker {
+  color: hsl(14, 45%, 36%);
   font-size: .6rem;
+  
+}
+.ingredients {
+  margin: 1rem;
 }
