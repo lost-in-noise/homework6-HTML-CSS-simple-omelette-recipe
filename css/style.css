@@ -64,7 +64,7 @@ img {
   font-weight: 500;
   font-size: 1.4rem;
   color: hsl(14, 45%, 36%);
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .ingredients ul {
@@ -89,6 +89,7 @@ img {
   font-weight: 500;
   font-size: 1.4rem;
   color: hsl(14, 45%, 36%);
+  margin-top: 2rem;
 }
 .instructions ol {
   font-family: "Outfit-Regular400";
@@ -116,4 +117,44 @@ hr {
   background-color: hsl(30, 18%, 87%);
   border: none;
   height: 0.1rem;
+}
+.nutrition h2 {
+  font-family: "Young-Serif";
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: hsl(14, 45%, 36%);
+  margin-top: 2rem;
+}
+.nutrition p {
+  font-family: "Outfit-Regular400";
+  font-size: 0.8rem;
+  color: hsl(30, 10%, 34%);
+  padding-top: 1rem;
+}
+.nutrition table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Outfit-Regular400";
+  font-size: .8rem;
+  color: hsl(30, 10%, 34%);
+}
+.nutrition td {
+  border-bottom: .1rem solid hsl(30, 18%, 87%);
+  width: 30%;
+  vertical-align: middle;
+  padding: 1rem 0 1rem 1.6rem;
+}
+
+.td-name {
+  font-size: .8rem;
+  color: hsl(30, 10%, 34%);
+}
+.td-value {
+  color: hsl(14, 45%, 36%);
+  font-size: .8rem;
+  font-weight: 900;  
+}
+.nutrition tr:last-child td {
+  border-bottom: none;
 }
