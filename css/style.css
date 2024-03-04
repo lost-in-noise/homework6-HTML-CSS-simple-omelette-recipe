@@ -1,5 +1,6 @@
 body {
   background-color: hsl(29, 53%, 90%);
+  
 }
 
 img {
@@ -13,9 +14,23 @@ img {
   margin: 5rem auto;
   padding: 1rem 2rem;
   line-height: 1.1;
-  max-width: 35rem;
+  max-width: 36.5rem;
+}
+
+.recipe-title h1 {
+  font-family: "Young-Serif";
+  padding-top: 1rem;
+  font-weight: 500;
+  font-size: 2rem;
+  color: hsl(24, 5%, 18%);
+  margin-top: 1rem;
+}
+.recipe-title p {
+  font-family: "Outfit Regular400";
+  font-size: 0.8rem;
+  color: hsl(30, 10%, 34%);
+  padding-top: 1rem;
 }
 .recipe-title {
-    
 
 }
