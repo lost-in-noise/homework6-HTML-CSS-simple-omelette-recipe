@@ -77,9 +77,38 @@ img {
 
 .ingredients ul li::marker {
   color: hsl(14, 45%, 36%);
-  font-size: .6rem;
-  
+  font-size: 0.6rem;
 }
 .ingredients {
   margin: 1rem;
+}
+
+.instructions h2 {
+  font-family: "Young-Serif";
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: hsl(14, 45%, 36%);
+}
+.instructions ol {
+  font-family: "Outfit-Regular400";
+  margin: 1rem;
+  font-size: 0.8rem;
+  color: hsl(30, 10%, 34%);
+  line-height: 2;
+}
+.instructions ol li {
+  line-height: 2;
+  padding-left: 1rem;
+  width: 480px;
+}
+.instructions ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.instructions {
+  margin: 1rem;
+}
+.instructions ol li span {
+  font-weight: bold;
 }
