@@ -38,7 +38,7 @@ img {
 .preparation-time {
   background-color: hsl(330, 100%, 98%);
   border-radius: 1rem;
-  padding: 1.5rem;
+  padding: 1.8rem;
   margin-top: 2rem;
 }
 
@@ -52,6 +52,7 @@ img {
   font-size: 0.8rem;
   color: hsl(30, 10%, 34%);
   line-height: 0.7;
+  padding-left: 1rem;
 }
 .preparation-time li::marker {
   color: hsl(332, 51%, 32%);
@@ -63,6 +64,7 @@ img {
   font-weight: 500;
   font-size: 1.4rem;
   color: hsl(14, 45%, 36%);
+  margin-top: 1rem;
 }
 
 .ingredients ul {
@@ -72,15 +74,14 @@ img {
   color: hsl(30, 10%, 34%);
   line-height: 2;
   list-style-type: square;
-  padding: 1rem;
+}
+.ingredients ul li {
+  padding-left: 1rem;
 }
 
 .ingredients ul li::marker {
   color: hsl(14, 45%, 36%);
   font-size: 0.6rem;
-}
-.ingredients {
-  margin: 1rem;
 }
 
 .instructions h2 {
@@ -91,24 +92,28 @@ img {
 }
 .instructions ol {
   font-family: "Outfit-Regular400";
-  margin: 1rem;
+  margin-top: 1rem;
   font-size: 0.8rem;
   color: hsl(30, 10%, 34%);
   line-height: 2;
+  margin-left: 1rem;
 }
 .instructions ol li {
   line-height: 2;
   padding-left: 1rem;
-  width: 480px;
 }
 .instructions ol li::marker {
   color: hsl(14, 45%, 36%);
   font-size: 0.8rem;
   font-weight: bold;
 }
-.instructions {
-  margin: 1rem;
-}
+
 .instructions ol li span {
   font-weight: bold;
+}
+
+hr {
+  background-color: hsl(30, 18%, 87%);
+  border: none;
+  height: 0.1rem;
 }
